@@ -2,344 +2,142 @@
 /*! 2023-12-06 */
 window.siteList = [
   {
-    countrySite: "intl",
-    languages: [
-      {
-        tce_rule_count: "1",
-        siteText: "Intl",
-        text: "English",
-        lang: "en",
-        defaultLang: true,
-        tel: "",
-        telText: "",
-      },
-      {
-        tce_rule_count: "1",
-        siteText: "Intl",
-        text: "简体中文",
-        lang: "zh",
-        defaultLang: false,
-        tel: "",
-        telText: "",
-      },
-      {
-        tce_rule_count: "1",
-        siteText: "Intl",
-        text: "繁體中文",
-        lang: "tc",
-        defaultLang: false,
-        tel: "",
-      },
-      {
-        tce_rule_count: "1",
-        siteText: "Intl",
-        text: "日本語",
-        lang: "ja",
-        defaultLang: false,
-      },
-      {
-        tce_rule_count: "1",
-        siteText: "Intl",
-        text: "한국어",
-        lang: "ko",
-        defaultLang: false,
-      },
-      {
-        tce_rule_count: "1",
-        siteText: "Intl",
-        text: "Deutsch",
-        lang: "de",
-        defaultLang: false,
-      },
-      {
-        tce_rule_count: "1",
-        siteText: "Intl",
-        text: "Français",
-        lang: "fr",
-        defaultLang: false,
-      },
-      {
-        text: "Bahasa Indonesia",
-        lang: "id",
-        siteText: "Intl",
-        defaultLang: false,
-      },
-      { text: "ไทย", lang: "th", siteText: "Intl", defaultLang: false },
-      { lang: "ru", siteText: "Intl", text: "Pусский" },
-      { text: "Español", lang: "es", siteText: "Intl" },
-    ],
-    link: "//www.alibabacloud.com",
-    text: "International",
-    openTarget: "_self",
-    key: "intl",
+     "countrySite":"intl",
+     "languages":[
+        {
+           "tce_rule_count":"1",
+           "siteText":"Intl",
+           "text":"English",
+           "lang":"en",
+           "defaultLang":true,
+           "tel":"",
+           "telText":""
+        },
+        {
+           "tce_rule_count":"1",
+           "siteText":"Intl",
+           "text":"France",
+           "lang":"zh",
+           "defaultLang":false,
+           "tel":"",
+           "telText":""
+        },
+        {
+          "tce_rule_count":"1",
+          "siteText":"Intl",
+          "text":"Chinness",
+          "lang":"zh",
+          "defaultLang":false,
+          "tel":"",
+          "telText":""
+       },
+        {
+          "tce_rule_count":"1",
+          "siteText":"Intl",
+          "text":"Khmer",
+          "lang":"zh",
+          "defaultLang":false,
+          "tel":"",
+          "telText":""
+       },
+
+     ],
+     "text":"International",
+     "openTarget":"_self",
+     "key":"intl"
   },
   {
-    countrySite: "au",
-    languages: [
-      {
-        tce_rule_count: "1",
-        siteText: "AU",
-        text: "English",
-        lang: "en",
-        defaultLang: "true",
-        tel: "+61 2-8379-8028",
-        pctel: "tel:+61 2-8379-8028",
-        telText: "Call Us (+61 2-8379-8028)",
-      },
-    ],
-    link: "//au.alibabacloud.com",
-    text: "Australia",
-    openTarget: "_self",
-    key: "intl",
+     "countrySite":"au",
+     "languages":[
+        {
+           "tce_rule_count":"1",
+           "siteText":"AU",
+           "text":"English",
+           "lang":"en",
+           "defaultLang":"true",
+           "tel":"+61 2-8379-8028",
+           "pctel":"tel:+61 2-8379-8028",
+           "telText":"Call Us (+61 2-8379-8028)"
+        }
+     ],
+     "text":"Australia",
+     "openTarget":"_self",
+     "key":"intl"
   },
   {
-    countrySite: "eu",
-    languages: [
-      {
-        tce_rule_count: "1",
-        siteText: "EU",
-        text: "English",
-        lang: "en",
-        defaultLang: "true",
-        tel: "+44 20-7048-8226",
-        pctel: "tel:+44 20-7048-8226",
-        telText: "Call Us (+44 20-7048-8226)",
-      },
-    ],
-    link: "//eu.alibabacloud.com",
-    text: "Europe",
-    openTarget: "_self",
-    key: "intl",
+     "countrySite":"eu",
+     "languages":[
+        {
+           "tce_rule_count":"1",
+           "siteText":"EU",
+           "text":"English",
+           "lang":"en",
+           "defaultLang":"true",
+           "tel":"+44 20-7048-8226",
+           "pctel":"tel:+44 20-7048-8226",
+           "telText":"Call Us (+44 20-7048-8226)"
+        }
+     ],
+     "text":"Europe",
+     "openTarget":"_self",
+     "key":"intl"
+  },
+
+  {
+     "countrySite":"my",
+     "languages":[
+        {
+           "tce_rule_count":"1",
+           "siteText":"MY",
+           "text":"English",
+           "lang":"en",
+           "defaultLang":"true",
+           "tel":"+60 1546-0000-23",
+           "pctel":"tel:+60 1546-0000-23",
+           "telText":"Call Us (+60 1546-0000-23)"
+        }
+     ],
+     "text":"Malaysia",
+     "openTarget":"_self",
+     "key":"intl"
   },
   {
-    countrySite: "in",
-    languages: [
-      {
-        tce_rule_count: "1",
-        siteText: "IN",
-        text: "English",
-        lang: "en",
-        defaultLang: "true",
-        tel: "+91 11-71279699",
-        pctel: "tel:+91 11-71279699",
-        telText: "Call Us (+91 11-71279699)",
-      },
-    ],
-    link: "//in.alibabacloud.com",
-    text: "India",
-    openTarget: "_self",
-    key: "intl",
+     "countrySite":"sg",
+     "languages":[
+        {
+           "tce_rule_count":"1",
+           "siteText":"SG",
+           "text":"English",
+           "lang":"en",
+           "defaultLang":"true",
+           "tel":"+65 3163-8014",
+           "pctel":"tel:+65 3163-8014",
+           "telText":"Call Us (+65 3163-8014)"
+        }
+     ],
+     "text":"Singapore",
+     "openTarget":"_self",
+     "key":"intl"
   },
   {
-    countrySite: "id",
-    languages: [
-      {
-        tce_rule_count: "1",
-        siteText: "ID",
-        text: "Bahasa",
-        lang: "id",
-        defaultLang: "false",
-        tel: "+62 212-789-9352",
-        pctel: "tel:+62 212-789-9352",
-        telText: "Call Us (+62 212-789-9352)",
-      },
-    ],
-    link: "//id.alibabacloud.com",
-    text: "Indonesia",
-    openTarget: "_self",
-    key: "intl",
+     "countrySite":"us",
+     "languages":[
+        {
+           "tce_rule_count":"1",
+           "siteText":"US",
+           "text":"English",
+           "lang":"en",
+           "defaultLang":"true",
+           "tel":"+1-833-732-2135",
+           "pctel":"tel:+1-833-732-2135",
+           "telText":"Call Us (+1-833-732-2135)"
+        }
+     ],
+     "text":"United States",
+     "openTarget":"_self",
+     "key":"intl"
   },
-  {
-    countrySite: "my",
-    languages: [
-      {
-        tce_rule_count: "1",
-        siteText: "MY",
-        text: "English",
-        lang: "en",
-        defaultLang: "true",
-        tel: "+60 1546-0000-23",
-        pctel: "tel:+60 1546-0000-23",
-        telText: "Call Us (+60 1546-0000-23)",
-      },
-    ],
-    link: "//my.alibabacloud.com",
-    text: "Malaysia",
-    openTarget: "_self",
-    key: "intl",
-  },
-  {
-    countrySite: "sg",
-    languages: [
-      {
-        tce_rule_count: "1",
-        siteText: "SG",
-        text: "English",
-        lang: "en",
-        defaultLang: "true",
-        tel: "+65 3163-8014",
-        pctel: "tel:+65 3163-8014",
-        telText: "Call Us (+65 3163-8014)",
-      },
-    ],
-    link: "//sg.alibabacloud.com",
-    text: "Singapore",
-    openTarget: "_self",
-    key: "intl",
-  },
-  {
-    countrySite: "us",
-    languages: [
-      {
-        tce_rule_count: "1",
-        siteText: "US",
-        text: "English",
-        lang: "en",
-        defaultLang: "true",
-        tel: "+1-833-732-2135",
-        pctel: "tel:+1-833-732-2135",
-        telText: "Call Us (+1-833-732-2135)",
-      },
-    ],
-    link: "//us.alibabacloud.com",
-    text: "United States",
-    openTarget: "_self",
-    key: "intl",
-  },
-  {
-    countrySite: "hk",
-    languages: [
-      {
-        tce_rule_count: "1",
-        siteText: "HK",
-        text: "繁體中文",
-        lang: "tc",
-        defaultLang: "true",
-        tel: "800-931-108",
-        pctel: "tel:800-931-108",
-        telText: "聯絡我們 (800-931-108)",
-      },
-    ],
-    link: "//hk.alibabacloud.com",
-    text: "中國香港",
-    openTarget: "_self",
-    key: "intl",
-  },
-  {
-    countrySite: "cn",
-    languages: [
-      {
-        tce_rule_count: "1",
-        siteText: "中国",
-        text: "简体中文",
-        lang: "zh",
-        defaultLang: "true",
-      },
-    ],
-    link: "//cn.aliyun.com",
-    text: "中国",
-    openTarget: "_self",
-    key: "cn",
-  },
-  {
-    link: "//ph.alibabacloud.com",
-    openTarget: "_self",
-    key: "intl",
-    countrySite: "ph",
-    text: "Philippines",
-    languages: [
-      {
-        lang: "en",
-        defaultLang: true,
-        text: "English",
-        siteText: "Philippines",
-      },
-    ],
-  },
-  {
-    key: "intl",
-    link: "//th.alibabacloud.com",
-    openTarget: "_self",
-    countrySite: "th",
-    languages: [
-      {
-        text: "ไทย",
-        lang: "th",
-        siteText: "ประเทศไทย",
-        defaultLang: true,
-      },
-    ],
-    text: "ประเทศไทย",
-  },
-  {
-    text: "Việt Nam",
-    key: "intl",
-    link: "//vn.alibabacloud.com",
-    openTarget: "_self",
-    languages: [
-      {
-        text: "Tiếng Việt",
-        lang: "vi",
-        defaultLang: true,
-        siteText: "Việt Nam",
-      },
-    ],
-    countrySite: "vn",
-  },
-  {
-    text: "Türkiye",
-    key: "intl",
-    link: "//tr.alibabacloud.com",
-    countrySite: "tr",
-    languages: [
-      {
-        siteText: "Türkiye",
-        lang: "tr",
-        text: "Türkçesi",
-        defaultLang: true,
-      },
-    ],
-    openTarget: "_self",
-  },
-  {
-    link: "//middle-east.alibabacloud.com",
-    key: "intl",
-    text: "Middle East",
-    languages: [{ siteText: "Middle East", text: "English", lang: "en" }],
-    countrySite: "me",
-    openTarget: "_self",
-  },
-  {
-    text: "Africa",
-    key: "intl",
-    link: "//africa.alibabacloud.com",
-    countrySite: "africa",
-    languages: [
-      {
-        text: "English",
-        lang: "en",
-        siteText: "Africa",
-        defaultLang: true,
-      },
-    ],
-    openTarget: "_self",
-  },
-  {
-    text: "América Latina",
-    key: "intl",
-    link: "//latam.alibabacloud.com",
-    openTarget: "_self",
-    countrySite: "latam",
-    languages: [
-      {
-        text: "Español",
-        lang: "es",
-        siteText: "América Latina",
-        defaultLang: true,
-      },
-    ],
-  },
-];
+]
 
 //TODO: configuration
 window.contactUsConfig = {

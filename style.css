@@ -1,8 +1,8 @@
-*{
-    border: none;
-    margin: none;
-    box-sizing: border-box;
-    padding: 0;
+* {
+  border: none;
+  margin: none;
+  box-sizing: border-box;
+  padding: 0;
 }
 body .hmod-ace-alicloud-homon-nav .alicloud-header {
   background: transparent;
@@ -22,9 +22,12 @@ body #backToTop,
 body #backToTop:hover {
   color: #ff6a00;
 }
-
+pre {
+  padding: 0;
+  border: none !important;
+}
 .hmod-alicloud-homon-nav .alicloud-top-text-box {
-  background-color:none;
+  background-color: none;
 }
 .hmod-alicloud-homon-nav
   .alicloud-header.navbar-inverse
@@ -32,7 +35,7 @@ body #backToTop:hover {
   .site-wrap.open,
 .hmod-alicloud-homon-nav .alicloud-header .header-search .dropdown-menu,
 .hmod-alicloud-homon-nav .alicloud-header .dropdown-menu {
-  background-color:none;
+  background-color: none;
 }
 .hmod-alicloud-homon-nav .alicloud-header #search-input {
   background-color: #242627;
@@ -48,23 +51,21 @@ body #backToTop:hover {
   .dropdown-menu-5
   .tab-menu
   .tab-menu-all {
-  background-color:none;
+  background-color: none;
 }
 
-.hmod-alicloud-homon-nav
-  .alicloud-header-navs
-  .navbar-fixed-dropdown-menu {
-  background-color:none;
+.hmod-alicloud-homon-nav .alicloud-header-navs .navbar-fixed-dropdown-menu {
+  background-color: none;
 }
 .hmod-alicloud-homon-nav .navbar-fixed-dropdown-menu .ap-wrap {
-  background-color:none;
+  background-color: none;
 }
 
 .hmod-alicloud-homon-nav
   .navbar-fixed-dropdown-menu
   .tab-menuDiv::-webkit-scrollbar-thumb,
 .hmod-alicloud-homon-nav .tab-pane::-webkit-scrollbar-thumb {
-  background-color:none;
+  background-color: none;
 }
 
 .hmod-alicloud-homon-nav .dropdown-menu-4 .nav-product-search,
@@ -93,27 +94,27 @@ body #backToTop:hover {
     .alicloud-header
     .navbar-nav.alicloud-nav-right
     .header-search {
-    background-color:none;
+    background-color: none;
   }
 }
 
 .hmod-alicloud-homon-nav .navbar-inverse .navbar-toggle:focus,
 .hmod-alicloud-homon-nav .navbar-inverse .navbar-toggle:hover {
-  background-color:none;
+  background-color: none;
 }
 
 .hmod-alicloud-homon-nav .navbar-mobile,
 .hmod-alicloud-homon-nav .navbar-mobile .login-item-nav a {
-  background-color:none;
+  background-color: none;
 }
 .hmod-alicloud-homon-nav .navbar-mobile ul.nav-body li.level-2 {
-  background-color:none;
+  background-color: none;
 }
 .hmod-alicloud-homon-nav .navbar-mobile ul.nav-body li.level-3 {
-  background-color:none;
+  background-color: none;
 }
 .hmod-alicloud-homon-nav .navbar-mobile ul.nav-body li.level-4 {
-  background-color:none;
+  background-color: none;
 }
 
 .qJTHM {
@@ -290,12 +291,10 @@ body #backToTop:hover {
   margin: 0;
   padding: 10px;
 }
-.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe
-  .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
   padding: 8px;
 }
-.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe
-  .nsm7Bb-HzV7m-LgbsSe-Bz112c {
+.nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c {
   padding: 4px;
 }
 .nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
@@ -457,9 +456,7 @@ body #backToTop:hover {
   font-size: 11px;
   font-weight: 400;
 }
-.nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc
-  .nsm7Bb-HzV7m-LgbsSe-BPrWId
-  .K4efff {
+.nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff {
   color: #e8eaed;
   fill: #e8eaed;
 }
@@ -481,8 +478,7 @@ body #backToTop:hover {
   margin-left: 12px;
   margin-right: -10px;
 }
-.nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK
-  .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
+.nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf {
   -webkit-border-radius: 18px;
   border-radius: 18px;
 }
@@ -567,8 +563,7 @@ body #backToTop:hover {
 }
 #J_xiaomi_dialog {
   position: fixed;
-  font-family: PingFang SC, HEITI SC, Microsoft YaHei, STHeiti Light,
-    sans-serif !important;
+  font-family: PingFang SC, HEITI SC, Microsoft YaHei, STHeiti Light, sans-serif !important;
 }
 #J_xiaomi_dialog .J_weak {
   background-color: #fff;
@@ -581,8 +576,7 @@ body #backToTop:hover {
   cursor: pointer;
   -webkit-box-shadow: 0 12px 12px 0 rgba(9, 7, 7, 0.03),
     0 8px 4px 0 rgba(0, 0, 0, 0.04);
-  box-shadow: 0 12px 12px 0 rgba(9, 7, 7, 0.03),
-    0 8px 4px 0 rgba(0, 0, 0, 0.04);
+  box-shadow: 0 12px 12px 0 rgba(9, 7, 7, 0.03), 0 8px 4px 0 rgba(0, 0, 0, 0.04);
 }
 #J_xiaomi_dialog .J_weak .alime-avatar {
   width: 20px;
@@ -762,9 +756,8 @@ body #backToTop:hover {
 @media (max-width: 992px) {
   .hmod-alicloud-top-banner-skeleton .container {
     padding: 0;
-
   }
-  .hmod-alicloud-homon-nav .navbar-mobile{
+  .hmod-alicloud-homon-nav .navbar-mobile {
     display: block;
   }
 }
@@ -839,8 +832,7 @@ body #backToTop:hover {
   margin: 0 20px;
 }
 @media (max-width: 440px) {
-  .hmod-alicloud-top-banner-skeleton
-    .left_content-titleTwo {
+  .hmod-alicloud-top-banner-skeleton .left_content-titleTwo {
     display: block;
   }
 }
